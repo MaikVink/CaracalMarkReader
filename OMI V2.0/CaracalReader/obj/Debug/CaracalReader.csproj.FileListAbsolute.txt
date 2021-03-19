@@ -1,0 +1,7 @@
+C:\Users\maikv\source\repos\OMI V2.0\CaracalReader\bin\Debug\CaracalReader.exe.config
+C:\Users\maikv\source\repos\OMI V2.0\CaracalReader\bin\Debug\CaracalReader.exe
+C:\Users\maikv\source\repos\OMI V2.0\CaracalReader\bin\Debug\CaracalReader.pdb
+C:\Users\maikv\source\repos\OMI V2.0\CaracalReader\obj\Debug\CaracalReader.csprojAssemblyReference.cache
+C:\Users\maikv\source\repos\OMI V2.0\CaracalReader\obj\Debug\CaracalReader.csproj.CoreCompileInputs.cache
+C:\Users\maikv\source\repos\OMI V2.0\CaracalReader\obj\Debug\CaracalReader.exe
+C:\Users\maikv\source\repos\OMI V2.0\CaracalReader\obj\Debug\CaracalReader.pdb
