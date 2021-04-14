@@ -22,10 +22,14 @@ namespace MeanMedianSD
             foreach(string line in lines)
             {
                 string[] verhouding = line.Split('\t');
+                if (verhouding.Length <= 1)
+                    continue;
                 if (verhouding[0] == "NVD" || verhouding[0] == "VR" || verhouding[0] == "V") //this data gets looked at seperately, should be ignored while calculating the rest of the data.
                     continue;
                 double value = double.Parse(verhouding[0]);
                 int people = Int32.Parse(verhouding[2].Trim('(', ')')); //when copying from caracal the numbers has (), this needs to be removed before turning it in a number
+                if (value < 5.5)
+                    continue;
                 number += value * people;
                 amount += people;
                 for (int j = 0; j < people; j++)
@@ -116,9 +120,9 @@ namespace MeanMedianSD
             Console.WriteLine("mean: " + mean);
             Console.WriteLine("SD: " + SD);
             Console.WriteLine("median: " + median);
-            Console.WriteLine("IQR: " + IQR);
-            Console.WriteLine("Q3: " + Q3);
             Console.WriteLine("Q1: " + Q1);
+            Console.WriteLine("Q3: " + Q3);
+            Console.WriteLine("IQR: " + IQR);
             Console.WriteLine("upperWisker: " + upperWisker);
             Console.WriteLine("lowerWisker " + lowerWisker);
             Console.WriteLine("amount of outliners above the upperWisker: " + upOutliner);
