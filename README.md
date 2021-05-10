@@ -11,11 +11,21 @@ Als je op run drukt hoef je niks in te voeren en zal hij direct het resultaat pr
 
 als je dat hebt gedaan open je de textfile (of als hij al open staat selecteer je hem), en plak je de data over het huidige bestand heen. Dit kun je doen door eerst alle data te verwijderen en dan te plakken of Ctrl + A en dan Ctrl + V te doen.
 
-_(english version)_
-This code is made to directly read the caracal information of a course, what the average final grade, the standard deviation (SD), the median, Q1, Q3, IQR, the upperwisker, the lowerwisker and the amount of outliners (above or below the wiskers and also the combination of the two). This code is made to be used for the cours "Onderzoeksmethode voor informatica" (Rougly translated: "Research for informatics") from the Utrecht University
+**BELANGRIJK**: Wij zijn niet verantwoordelijk als de code niet werkt doordat:
+- jij een gedeelte van de code aanpast, dat niet (de huidige) lijn 16 is.
+- Caracal geupdate wordt en de data anders present
+We zijn ook niet verantwoordelijk als onze code schade toebrengt aan je computer of gebruikt wordt om schade aan computer te richten (zou niet moeten gebeuren, maar voor rechtsbescherming zetten wij het er wel bij).
 
-To use the code, you first must dowload the code and the txt bestand in the folder. Next you have to change the code on line 16 to the path where you have saved the "data.txt" file. If you have done correctly, the code should now run and show the result from the saved data.txt file. To change this data to the caracal information you want, you first have to go to the caracal (caracal.uu.nl) page with the results and you need to select (like shown in the picture below) and copy the results (for example, with Ctrl + C)
+_(english version)_
+This code is made to directly read the caracal information of a course, what the average final grade, the standard deviation (SD), the median, Q1, Q3, IQR, the upperwisker, the lowerwisker and the amount of outliners (above or below the wiskers and also the combination of the two). This code is made to be used for the cours "Onderzoeksmethode voor informatica" (Rougly translated: "Research for informatics") from the Utrecht University.
+
+To use the code, you first must dowload the code and the txt bestand in the folder. Next you have to change the code on line 16 to the path where you have saved the "data.txt" file. If you have done correctly, the code should now run and show the result from the saved data.txt file. To change this data to the caracal information you want, you first have to go to the caracal (caracal.uu.nl) page with the results and you need to select (like shown in the picture below) and copy the results (for example, with Ctrl + C).
 
 ![image](https://user-images.githubusercontent.com/57708260/111767286-d128e900-88a6-11eb-832d-489c5ad5e57b.png)
 
-Afterward, you open up the data.txt file (or select it if you already opened it), and you need to paste the data on top of the current data. You can do this by other deleting the original data and than copying the new data in the file or by doing Ctrl + A; Ctrl + V
+Afterward, you open up the data.txt file (or select it if you already opened it), and you need to paste the data on top of the current data. You can do this by other deleting the original data and than copying the new data in the file or by doing Ctrl + A; Ctrl + V.
+
+**NOTE**: We are not responsible if the code doesn't work because:
+- you changed a part of the code that is not (the current) line 16.
+- Caracal has an update, which makes it so that the representation of the data change.
+We are also not responsible if our code damages your device or it gets used to damage other devices (This is unlikely to happen, but for legal reasons we do write it down).
