@@ -13,7 +13,7 @@ namespace MeanMedianSD
         static List<double> allnumbers = new List<double>(); //for the median
         static List<double> forMedian = new List<double>(); //for Q1
         static List<double> afterMedian = new List<double>(); //for Q2
-        static readonly string textFile = @"..."; //textfile where the data gets stored, for example: @"C:\Downloads\data.txt"
+        static readonly string textFile = @"...\data.txt"; //textfile where the data gets stored, for example: @"C:\Downloads\data.txt". Important, this string should have to complete path to the data.txt file and should also end as "\data.txt" (see example)
         
         static void Main(string[] args)
         {
